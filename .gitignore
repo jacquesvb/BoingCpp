@@ -1,0 +1,19 @@
+# Build output
+/Build/
+/build/
+/out/
+bin/
+
+# CMake / IDE / tooling
+/compile_commands.json
+CMakeSettings.json
+/.vs/
+/.idea/
+/.cache/
+
+# Fetched dependencies (provisioned by CMake from GitHub)
+/thirdparty/
+
+# Local user data
+settings/
+saves/

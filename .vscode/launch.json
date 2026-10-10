@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "configurations":[
+        {
+            "name": "Run Application (Debug)",
+            "type": "cppdbg",
+            "MIMode": "gdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/Build/boing",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "${defaultBuildTask}"
+        }
+    ]
+}
